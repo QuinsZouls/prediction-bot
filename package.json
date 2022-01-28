@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node ./src/index.ts",
+    "data-generator": "ts-node ./src/data-generator.ts",
     "cg": "ts-node ./src/candle-genie.ts",
     "build": "tsc -p .",
     "test": "jest"
