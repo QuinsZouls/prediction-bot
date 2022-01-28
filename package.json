@@ -7,6 +7,7 @@
   "scripts": {
     "start": "ts-node ./src/index.ts",
     "cg": "ts-node ./src/candle-genie.ts",
+    "build": "tsc -p .",
     "test": "jest"
   },
   "dependencies": {
